@@ -1,9 +1,9 @@
 <?php
 // Connect to database
 $host = 'localhost'; // or your host
-$username = 'your_username';
-$password = 'your_password';
-$dbname = 'your_database';
+$username = 'root';
+$password = '';
+$dbname = 'Deesventrure_db';
 
 $conn = new mysqli($host, $username, $password, $dbname);
 
